@@ -13,7 +13,7 @@ def read_xml(xml):
 def read_xml_w_bs(xml):
     with open(xml, 'r') as f:
         soup = bs(f, "xml")        
-        for tag in soup.find_all('Test'):
+        for tag in soup.find_all('Tests'):
             print(f"tag name: {tag.name}")
             print(f"tag contents: {tag.contents}")
             print(f"tag string: {tag.string}")
