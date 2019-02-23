@@ -1,2 +1,7 @@
 *.idea
 .idea/*
+*.pyc
+Lib
+Scripts
+pyvenv.*
+.vscode
