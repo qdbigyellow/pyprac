@@ -1,0 +1,8 @@
+bs4
+aiofiles
+aiohttp
+aiohttp
+requests
+pandas
+pyecharts
+pysnooper

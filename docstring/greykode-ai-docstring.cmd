@@ -1,0 +1,1 @@
+docker run -it -d -p 5000:5000 --rm graykode/ai-docstring:cpu
