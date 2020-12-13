@@ -16,6 +16,7 @@ pyecharts = "^1.9.0"
 pysnooper = "^0.4.2"
 yamllint = "^1.25.0"
 FuzzyWuzzy = "^0.18.0"
+hypothesis = "^5.43.3"
 
 [tool.poetry.dev-dependencies]
 
