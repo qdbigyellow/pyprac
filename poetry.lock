@@ -159,6 +159,14 @@ test = ["testtools (>=1.8.0)"]
 
 [[package]]
 category = "main"
+description = "A fancy and practical functional tools"
+name = "funcy"
+optional = false
+python-versions = "*"
+version = "1.15"
+
+[[package]]
+category = "main"
 description = "Fuzzy string matching in python"
 name = "fuzzywuzzy"
 optional = false
@@ -533,7 +541,7 @@ test = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 
 [metadata]
-content-hash = "ab726660475f7c3c4965deeb76372ff0179e3f8643218472d52e9fee62fc042d"
+content-hash = "16c1d0656c706a55e3f90d792c84853ce2f56d82478d4e98c9506717c34dd147"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -619,6 +627,10 @@ eliot = [
 eliot-tree = [
     {file = "eliot-tree-19.0.1.tar.gz", hash = "sha256:aac20b528944e6e3c9d33884104f06a8de3a1840ada15d07ea036e50b58cfba1"},
     {file = "eliot_tree-19.0.1-py3-none-any.whl", hash = "sha256:cfae0ecc4899ab9b995de79960e55d33ce6ef0faf697f35f5e5c7d73c6e56dec"},
+]
+funcy = [
+    {file = "funcy-1.15-py2.py3-none-any.whl", hash = "sha256:c247c3d085e03a89974e0c9e8331e9a79db3768a263556ba896d6c92d665bba2"},
+    {file = "funcy-1.15.tar.gz", hash = "sha256:65b746fed572b392d886810a98d56939c6e0d545abb750527a717c21ced21008"},
 ]
 fuzzywuzzy = [
     {file = "fuzzywuzzy-0.18.0-py2.py3-none-any.whl", hash = "sha256:928244b28db720d1e0ee7587acf660ea49d7e4c632569cad4f1cd7e68a5f0993"},
