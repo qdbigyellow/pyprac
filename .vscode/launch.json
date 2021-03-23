@@ -9,7 +9,8 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "pythonPath": "/home/jim/.cache/pypoetry/virtualenvs/pyprac-D2wPAgL7-py3.9/bin/python"
         },
         {
             "name": "Python: Attach",
